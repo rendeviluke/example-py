@@ -14,9 +14,9 @@ def div(x: float, y: float):
     return x / y
 
 
-number_one = input("Insira um número: \n")
-number_two = input("Insira outro número: \n")
-operator = input("Insira o operador: + - * /\n")
+number_one = input("Type a number: \n")
+number_two = input("Type another number: \n")
+operator = input("Choose one operator: [+] [-] [*] [/]\n")
 
 try:
     number_one = float(number_one)  # type: ignore
